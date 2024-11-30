@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    <meta name="author" content=" Noura Shawky" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/signup.css">
+     <!-- Title  -->
+    <title>sign Up</title>
+</head>
+<body>
+    <main class="py-4 ">
+        <div class="container p-4 d-flex justify-content-center align-content-center flex-column ">
+          <div class="box w-75 m-auto  p-5">
+            <h1>Smart Login System</h1>
+            <input id="signupName" type="text" class="form-control my-3 " placeholder="Enter your name" aria-label="Username" aria-describedby="basic-addon1">
+            <input id="signupEmail"  type="email" class="form-control my-3 " placeholder="Enter your email" aria-label="Useremail" aria-describedby="basic-addon1">
+            <input id="signupPassword"  type="password" class="form-control my-3 " placeholder="Enter your password" aria-label="Userpassword" aria-describedby="basic-addon1">
+            <p id="msgError" class=" text-center d-none"><span class="text-danger m-3">All inputs is required</span></p>
+            <p id="msgExist" class=" text-center d-none"><span class="text-danger m-3">email already exists</span></p>
+            <p id="msgSuccess" class=" text-center d-none"><span class="text-success m-3">Success</span></p>
+            <!-- <p id="exist"></p> -->
+            <button id="signupBtn" onclick="signup()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+            <p class="text-white text-center">You have an account? <a class="text-white text-decoration-none" href="./index.html">Signin</a></p>
+
+          </div>
+
+          
+          </div>
+
+        
+
+    </main>
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+     <!-- <script src="./js/signup.js"></script> -->
+     <script src="./js/index.js"></script>
+     <!-- <script src="./js/home.js"></script> -->
+</body>
+</html>

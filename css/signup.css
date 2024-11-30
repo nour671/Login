@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+main {
+    
+    min-height: 100vh;
+    
+}
+.container .box {
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+.container .box h1 {
+    font-family: ;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #17a2b8;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    z-index: 1;
+}
+
+.container .box .btn-outline-info {
+  color: #17a2b8;
+  background-color: transparent;
+  border-color: #17a2b8;
+  transition: all 0.15s ease-in-out;
+}
+.container .box .btn-outline-info:hover {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.container .box .form-control {
+  background-color: transparent;
+  color: #fff !important;
+}
+.container .box .form-control:focus {
+ 
+  box-shadow: none;
+  
+}
+.container .box .form-control::placeholder {
+ 
+  color: #B6B6B6 !important;
+  
+}
+.container .box p a:hover {
+  text-decoration: underline !important;
+}
